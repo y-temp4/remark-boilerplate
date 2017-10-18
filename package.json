@@ -1,0 +1,15 @@
+{
+  "name": "remark-boilerplate",
+  "version": "0.1.0",
+  "description": "remark boilerplate.",
+  "main": "index.js",
+  "repository": "https://github.com/y-temp4/remark-boilerplate.git",
+  "author": "y-temp4 <y.temp4@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "browser-sync start --server . --files index.html slide.md"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
